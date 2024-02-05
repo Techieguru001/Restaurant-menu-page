@@ -1,0 +1,98 @@
+:root{
+    --primary-color: yellow;
+    --secondary-color: orange;
+    --auxillary-color: #c59d5f;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: var(--clr-grey-10);
+    color: #000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+@media screen and (min-width: 800px) {
+    body{
+        font-size: 1rem;
+    }
+}
+
+.menu{
+    margin: 1rem;
+    padding: 5rem 0;
+}
+h2{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    line-height: 1.25;
+}
+.underline{
+    width: 5rem;
+    height: .35rem;
+    background: #c59d5f;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo{
+    border: 6px solid #c59d5f;
+    border-radius: 1px;
+}
+.menu-item{
+    display: grid;
+    gap: 1rem 2rem;
+    max-width: 25rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem;
+}
+.item-info{
+    margin: 1rem;
+}
+h4{
+    font-size: 2rem;
+}
+.item-text{
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+.center-section{
+    width: 99vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    gap: 3rem 2rem;
+    justify-items: center;
+}
+.btn-container{
+    margin: 3.7rem;
+    display: flex;
+    justify-content: center;
+}
+.filter-btn{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+    border-color: #c59d5f;
+    letter-spacing: 1px;
+    border: 2px solid #c59d5f;
+    border-radius: 0.5rem;
+    padding: 0.475rem 0.85rem;
+    cursor: pointer;
+    background: transparent;
+    transition: all 0.3s linear;
+    box-shadow: 0 0 1px 0.2px;
+}
+.filter-btn:hover{
+    background-color: #d5a865;
+    color: #fff;
+}
